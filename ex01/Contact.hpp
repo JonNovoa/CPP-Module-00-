@@ -17,10 +17,10 @@ class	Contact
 		~Contact();
 
 		void	setFirstName(std::string name);
-		void	setLastName();
-		void	setNickname();
-		void	setPhoneNumber();
-		void	setDarkestSecret();
+		void	setLastName(std::string name);
+		void	setNickname(std::string nick);
+		void	setPhoneNumber(std::string phone);
+		void	setDarkestSecret(std::string secret);
 
 		std::string	getFirstName() const;
 		std::string getLastName() const;
